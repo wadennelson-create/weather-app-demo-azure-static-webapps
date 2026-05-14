@@ -9,7 +9,7 @@ const handleClick = () => {
 
   const getWeather = fetch(
     `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${
-      currentCity || "Queenstown"
+      currentCity || "Christchurch"
     }&aqi=no`
   )
     .then((res) => res.json())
